@@ -15,3 +15,4 @@ video-*.png
 !.env.example
 *.spec
 !RemixLauncher-1.1.spec
+release-artifacts/
