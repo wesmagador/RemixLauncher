@@ -1,0 +1,17 @@
+dados/
+__pycache__/
+build/
+dist/
+smoke-result.json
+vendor/
+qt-error.log
+*.log
+diagnostico-*.txt
+video-*.jpg
+video-*.png
+.venv/
+.env
+.env.*
+!.env.example
+*.spec
+!RemixLauncher-1.1.spec
