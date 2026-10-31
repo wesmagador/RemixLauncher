@@ -1,5 +1,7 @@
 # RTX Remix Launcher
 
+**[Baixar o executável mais recente](https://github.com/wesmagador/RemixLauncher/releases/latest)** · [Todas as versões](https://github.com/wesmagador/RemixLauncher/releases) · [Histórico de alterações](CHANGELOG.md)
+
 ![Biblioteca do launcher](preview-biblioteca.png)
 
 Launcher local para Windows, em português, para instalar e remover o **runtime** RTX Remix em vários jogos. O primeiro perfil é Assassin’s Creed Director’s Cut (DX9). O Toolkit/editor é instalado separadamente pela NVIDIA App.
