@@ -2,6 +2,8 @@
 
 ## 1.2.0 — Biblioteca e diagnóstico
 
+- Distribuição adicional em instalador Windows: instalação por usuário, atalhos e desinstalação preservando os dados. Testadas instalação, reinstalação, abertura e desinstalação em pasta isolada com backup de teste preservado.
+
 - Biblioteca em lista com filtro por nome e acesso à tela de cada jogo.
 - Textos dos botões laterais centralizados.
 - Adição de jogos por busca de instalações, busca em pasta ou seleção manual do executável.

@@ -1,0 +1,11 @@
+Remix Launcher 1.2
+
+Instalação para o usuário atual do Windows, sem necessidade de administrador.
+
+O instalador adiciona o launcher ao menu Iniciar e permite criar um atalho na área de trabalho. Não instala jogos nem o runtime NVIDIA. O runtime será baixado pelo launcher quando você escolher instalar RTX Remix em um jogo.
+
+Dados e backups ficam na pasta "dados", dentro da pasta de instalação. Desinstalar o launcher preserva essa pasta e não restaura nem remove o RTX Remix dos jogos. Para desfazer uma instalação em um jogo, utilize Restaurar no launcher antes de desinstalá-lo.
+
+Se você usou a edição portátil, ela não será alterada e seus dados não serão importados automaticamente. Para migrar, feche ambos os launchers e copie a pasta "dados" da edição portátil para a nova pasta de instalação, preservando os caminhos originais dos jogos.
+
+Assassin's Creed 1 tem compatibilidade experimental com RTX Remix.

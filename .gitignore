@@ -16,3 +16,5 @@ video-*.png
 *.spec
 !RemixLauncher-1.1.spec
 release-artifacts/
+tools/
+installer-test/

@@ -2,6 +2,16 @@
 
 **[Baixar o executável mais recente](https://github.com/wesmagador/RemixLauncher/releases/latest)** · [Todas as versões](https://github.com/wesmagador/RemixLauncher/releases) · [Histórico de alterações](CHANGELOG.md)
 
+## Instalação no Windows
+
+Na release 1.2.0, baixe `RemixLauncher-Setup-1.2.0.exe` e execute o assistente. Instala para o usuário atual, em `%LOCALAPPDATA%\Programs\Remix Launcher`, sem exigir administrador. Cria atalho no menu Iniciar e oferece um atalho na área de trabalho. O launcher aparece em Aplicativos instalados do Windows.
+
+A pasta `dados` fica junto ao aplicativo instalado. Reinstalar preserva essa pasta. Desinstalar remove o aplicativo e seus atalhos, mas **preserva os dados e backups**. A desinstalação do launcher não altera os jogos nem desfaz o runtime: utilize Restaurar em cada jogo antes, caso queira desfazer essas instalações.
+
+A edição portátil continua independente. Para migrar, feche ambos os launchers e copie sua pasta `dados` para a pasta da instalação. Mantenha os caminhos dos jogos para que os backups continuem apontando para a instalação original. O instalador não importa configurações, downloads ou backups automaticamente.
+
+Para compilar o instalador: gere primeiro `dist/RemixLauncher-1.2.exe`, instale o [Inno Setup 6](https://jrsoftware.org/isdl.php) e execute `Compilar Instalador.bat`. Também é possível colocar o compilador em `tools/InnoSetup/ISCC.exe`. O script `installer.iss` gera `dist/installer/RemixLauncher-Setup-1.2.0.exe`. O compilador e os arquivos de teste não são versionados.
+
 ![Biblioteca do launcher](preview-biblioteca.png)
 
 Launcher local para Windows, em português, para instalar e remover o **runtime** RTX Remix em vários jogos. O primeiro perfil é Assassin’s Creed Director’s Cut (DX9). O Toolkit/editor é instalado separadamente pela NVIDIA App.
